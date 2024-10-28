@@ -1,4 +1,3 @@
-"""
 1. Listas y Condicionales
 Dada una lista de numeros enteros, escribe una funci´on llamada 
 filtrar y modificar que:
@@ -172,5 +171,3 @@ Explica como se podria aplicar la herencia en este ejemplo para extender
 la funcionalidad a otros animales.
 La herencia permite crear nuevas clases de animales que hereden de Animal.
 Solo necesitamos definir su propio sonido.
-
-"""
