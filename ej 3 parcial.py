@@ -10,7 +10,7 @@ Ejemplo de entrada: [1, 2, 3, 4], [3, 4, 5, 6]
 Ejemplo de salida: ({3, 4}, {1, 2, 5, 6})"""
 
 
-def comprar_sets (lista1, lista2):
+def comparar_sets (lista1, lista2):
     conjunto1 = set(lista1)
     conjunto2 = set(lista2)
 
@@ -30,5 +30,5 @@ lista2 = []
 for num in entrada2.split():
     lista2.append(int(num))
 
-resultado = comprar_sets(lista1, lista2)
+resultado = comparar_sets(lista1, lista2)
 print(resultado)
