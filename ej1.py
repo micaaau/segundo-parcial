@@ -13,7 +13,7 @@ lista = [5, 10, 3, 15, 20, 24, 35]
 resultado = filtrar_y_modificar(lista)
 print(resultado)
 
-def generar_matriz_invertida (n, m): ·EJERCICIO 2
+def generar_matriz_invertida (n, m): #EJERCICIO 2
     matriz = {}
     contador = n * m
 
