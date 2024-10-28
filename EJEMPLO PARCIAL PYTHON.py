@@ -133,9 +133,9 @@ class Rectangulo:
     def perimetro(self):
         return self.base * 2 + self.altura * 2
 
-Rectangulo = Rectangulo(4, 6)
-print("Area del rectangulo:", Rectangulo.area())
-print("Perimetro del rectangulo:", Rectangulo.perimetro())
+rectangulo = Rectangulo(4, 6)
+print("Area del rectangulo:", rectangulo.area())
+print("Perimetro del rectangulo:", rectangulo.perimetro())
 
 6. Pilares de la Programacion Orientada a Objetos
 En base al siguiente codigo:
