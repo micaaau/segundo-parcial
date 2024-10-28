@@ -56,7 +56,7 @@ circ = circulo(5)
 print(circ.area())
 print(circ.circunferencia())
 
-def operar_resultado(num1, num2):
+def operar_resultado(num1, num2): #EJERCICIO 4
     def decorador (func):
         def wrapper (*args, **kwargs):
             resultado = func (*args, **kwargs)
