@@ -1,4 +1,4 @@
-"""def filtrar_y_modificar (lista): #EJERCICIO 1
+def filtrar_y_modificar (lista): #EJERCICIO 1
     nueva_lista = []
 
     for num in lista:
@@ -11,9 +11,9 @@
 
 lista = [5, 10, 3, 15, 20, 24, 35]
 resultado = filtrar_y_modificar(lista)
-print(resultado)"""
+print(resultado)
 
-"""def generar_matriz_invertida (n, m): ·EJERCICIO 2
+def generar_matriz_invertida (n, m): ·EJERCICIO 2
     matriz = {}
     contador = n * m
 
@@ -26,9 +26,9 @@ print(resultado)"""
 
 n = 2
 m = 3
-print(generar_matriz_invertida(n, m))"""
+print(generar_matriz_invertida(n, m))
 
-"""def operaciones_conjuntos (lista1, lista2): #EJERCICIO 3
+def operaciones_conjuntos (lista1, lista2): #EJERCICIO 3
     conjunto1 = set(lista1)
     conjunto2 = set(lista2)
 
@@ -40,9 +40,9 @@ print(generar_matriz_invertida(n, m))"""
 
 lista1 = [1, 4, 6, 3, 8]
 lista2 = [1, 7, 5, 8, 3]
-print(operaciones_conjuntos(lista1, lista2))"""
+print(operaciones_conjuntos(lista1, lista2))
 
-"""class circulo: #EJERCICIO 5
+class circulo: #EJERCICIO 5
     def __init__(self, radio):
         self.radio = radio
 
@@ -54,7 +54,7 @@ print(operaciones_conjuntos(lista1, lista2))"""
     
 circ = circulo(5)
 print(circ.area())
-print(circ.circunferencia())"""
+print(circ.circunferencia())
 
 def operar_resultado(num1, num2):
     def decorador (func):
